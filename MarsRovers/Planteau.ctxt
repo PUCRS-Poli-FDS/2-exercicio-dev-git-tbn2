@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Planteau
+comment1.params=x\ y
+comment1.target=Planteau(int,\ int)
+comment2.params=
+comment2.target=int\ getCordX()
+comment3.params=
+comment3.target=int\ getCordY()
+comment4.params=y
+comment4.target=void\ getCordY(int)
+comment5.params=y
+comment5.target=void\ setCordY(int)
+numComments=6
