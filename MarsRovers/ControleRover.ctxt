@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ControleRover
+comment1.params=rover\ planteau
+comment1.target=ControleRover(Rover,\ Planteau)
+comment2.params=tecla
+comment2.target=void\ moverRover(java.lang.String)
+comment3.params=x\ y
+comment3.target=void\ posicionarRover(int,\ int)
+comment4.params=
+comment4.target=void\ imprimeStatus()
+comment5.params=
+comment5.target=Rover\ retornaRover()
+numComments=6
