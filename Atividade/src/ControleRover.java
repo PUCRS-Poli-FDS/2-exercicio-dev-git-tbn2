@@ -1,4 +1,9 @@
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.util.ArrayList;
+
+
 public class ControleRover {
     private Rover rover;
     private Planteau planteau;
@@ -61,7 +66,33 @@ public class ControleRover {
     public Rover retornaRover(){
         return rover;
     }
-    
+
+    public void read(String Caminho) {       
+     ArrayList <String> comandos = new ArrayList<>(20);
+     String aux = "";
+     try {    
+         FileReader arq = new FileReader(Caminho);
+         BufferedReader lerArq  = new BufferedReader(arq);
+         String linha;
+          try {
+              linha = lerArq.readLine();
+              int i = 0;
+              while(linha != null ){
+                   comandos.add(i, aux);
+                   moverRover(comandos.get(i));
+                   i++;
+              }
+              lerArq.close();
+          } catch (Exception e) {
+              System.out.println("Erro ao ler Arqivo");
+          }
+     } catch (Exception e) {
+         System.out.println("Erro ao achar Arqivo");
+     } 
+     
+     
+  }
+   
 
 }
     

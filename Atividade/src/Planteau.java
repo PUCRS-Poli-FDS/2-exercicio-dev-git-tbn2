@@ -1,4 +1,5 @@
 
+
 public class Planteau
 {
     private int cordX;
@@ -19,8 +20,8 @@ public class Planteau
         return cordY;
     }
     
-    public void getCordY(int y){
-        cordY = y;
+    public void setCordX(int x){
+        cordX = x;
     }
     
     public void setCordY(int y){
