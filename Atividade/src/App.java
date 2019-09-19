@@ -1,20 +1,13 @@
-
-
 import java.util.Iterator;
 import java.util.Scanner;
 
-
 public class App {
-    
-    
-    
     public static void main(String[] args){
        ControleRover cr = new ControleRover(new Rover(1,1,2,PontoCardeal.N), new Planteau(5,5));
-       cr.read("C:\\Users\\thiag\\OneDrive - PUCRS - BR\\Área de Trabalho\\Atividade\\src\\ComandosRover.txt");
+       cr.read("C:\\Users\\thiag\\OneDrive - PUCRS - BR\\ï¿½rea de Trabalho\\Atividade\\src\\ComandosRover.txt");
        cr.imprimeStatus();
-       
+      
        /*
-       
        Scanner sc = new Scanner(System.in);
         String aux = "S"; 
         while(aux != "SAIR"){
@@ -24,9 +17,6 @@ public class App {
         cr.imprimeStatus();
        }
         
-        
-        
-        
         cr.moverRover("L");
         cr.moverRover("M");
         cr.moverRover("L");
@@ -39,11 +29,7 @@ public class App {
 
         cr.imprimeStatus();
 
-        
-
         cr.posicionarRover(3,3);
-        
-
 
         cr.moverRover("M");
         cr.moverRover("M");
@@ -75,13 +61,8 @@ public class App {
                    //TODO: handle exception
                }
           } catch (Exception e) {
-              System.out.println("Erro ao ler Arqivo");
+              System.out.println("Erro ao ler Arquivo");
           }
-        }*/
-        
-        
-
-       
-        
+        }*/  
     }
 }

@@ -1,5 +1,3 @@
-
-
 public class Rover {
     private int idRover;
     private int posX;
@@ -48,11 +46,9 @@ public class Rover {
        System.out.println("PosX: " + getPosX());
        System.out.println("PosY: " + getPosY());
        System.out.println("Direção: " + getPontoCardeal());
-       System.out.println("");
-       
+       System.out.println(""); 
     }
-    
-    }
+}
     
     
     

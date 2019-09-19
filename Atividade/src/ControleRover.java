@@ -1,8 +1,6 @@
-
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
-
 
 public class ControleRover {
     private Rover rover;
@@ -12,8 +10,7 @@ public class ControleRover {
         this.rover = rover;
         this.planteau = planteau;
     }
-    
-    
+
     public void moverRover(String tecla){
         switch(tecla){
             
@@ -84,10 +81,10 @@ public class ControleRover {
               }
               lerArq.close();
           } catch (Exception e) {
-              System.out.println("Erro ao ler Arqivo");
+              System.out.println("Erro ao ler Arquivo");
           }
      } catch (Exception e) {
-         System.out.println("Erro ao achar Arqivo");
+         System.out.println("Erro ao achar Arquivo");
      } 
      
      
